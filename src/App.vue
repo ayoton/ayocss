@@ -11,8 +11,8 @@ import { RouterView } from "vue-router";
       width="125"
       height="125"
     />
-    <button class="btn btn-xs btn-green">Button</button>
-    <button class="btn btn-2xl btn-green">Button</button>
+    <button class="btn btn-6" disabled>Button</button>
+    <button class="btn btn-2xl btn-green" disabled>Button</button>
   </header>
 
   <RouterView />

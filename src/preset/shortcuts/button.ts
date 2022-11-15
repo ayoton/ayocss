@@ -10,9 +10,9 @@ export const buttonShortcuts: Shortcut<Theme>[] = [
     },
     { autocomplete: "btn-(xs|sm|md|lg|xl|2xl)" },
   ],
-  [
-    /^btn-([a-zA-Z]+)$/,
-    ([, u]) => `color-${u}-100 bg-${u}-500 hover:bg-${u}-600`,
-    { autocomplete: "btn-$colors" },
-  ],
+  // [
+  //   /^btn-([a-zA-Z]+)$/,
+  //   ([, u]) => `color-${u}-100 bg-${u}-500 hover:bg-${u}-600`,
+  //   { autocomplete: "btn-$colors" },
+  // ],
 ];
